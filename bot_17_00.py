@@ -8,7 +8,7 @@ import logging
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, MessageHandler, Filters
 
-link = 'https://ulkabo.github.io/bot-KMAD-17-00/data/'
+link = ' https://p0l1na.github.io/OurBot/data/'
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -140,7 +140,7 @@ def error(update, context):
 
 
 def main():
-    updater = Updater("1622026876:AAGSPO1cWixVtEb0Zw8PKJxNa-KfQUh7818", use_context=True)
+    updater = Updater("1797915560:AAH3B90ZYoD1M1p1rGrTcNsUdl6lFel-sko", use_context=True)
 
     dp = updater.dispatcher
 
